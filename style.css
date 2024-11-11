@@ -1,0 +1,78 @@
+body {
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: #00a6c6;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.perfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #ffffff;
+}
+
+.area {
+    color: #ffffff;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.enlaces a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.enlaces a:hover {
+    background-color: #006680;
+}
+
+.frase {
+    margin-top: 20px;
+    font-style: italic;
+    color: #888888;
+}
